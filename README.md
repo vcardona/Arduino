@@ -29,7 +29,7 @@ A continuación vamos a encontrar el código que se utilizo en Arduino para real
 
   created 2005
   by DojoDave <http://www.0j0.org>
-  modified 28 Aprilg 2019
+  modified 28 April 2019
   by Victor Cardona
 
   This example code is in the public domain.
@@ -167,3 +167,7 @@ Luego ese mismo nombre lo agregamos a Unity para que pueda funcionar bien la com
 ![](PuertoUnity.png)
 
 Todo este ejemplo fue realizado en Mac, pero los mismos pasos se puede seguir en Windows.
+
+## Imágenes del proceso
+
+![](BotonesColores.jpeg) ![](Cableado.jpeg) ![](ConexionArduino.jpeg) ![](ConexionDos.jpeg) ![](Conexiones) ![](ControlArudino.gif)
