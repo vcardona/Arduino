@@ -27,7 +27,7 @@ public class MyMessageListener : MonoBehaviour
 
     public void CambioColor(string clave)
     {
-        Debug.Log("Función Cambio COlor");
+        Debug.Log("Función Cambio Color");
         Debug.Log("El mensaje que llego es " + clave);
 
         int valorEntero = int.Parse(clave);
