@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MyMessageListenerAudios : MonoBehaviour 
+public class MyMessageListenerAudios : MonoBehaviour
 {
-    
+
     public AudioClip[] AudiosBotones;
 
     public AudioSource m_MyAudioSource;
+
+    public string NombreEscena;
 
     private void Start()
     {
@@ -34,8 +36,7 @@ public class MyMessageListenerAudios : MonoBehaviour
         switch (valorEntero)
         {
             case 1:
-                m_MyAudioSource.clip = AudiosBotones[3];
-                m_MyAudioSource.Play();
+                SceneManager.LoadScene(NombreEscena);
                 Debug.Log("Parte Blue del Switch");
                 break;
             case 2:

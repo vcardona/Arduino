@@ -143,9 +143,7 @@ TextMesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 514181240}
-  m_Text: 'Me llamo
-
-    Jeronimo'
+  m_Text: "Voy al \nBa\xF1o."
   m_OffsetZ: 2.13
   m_CharacterSize: 0.56
   m_LineSpacing: 1.16
@@ -249,7 +247,7 @@ Prefab:
     - target: {fileID: 11442534, guid: a65acf0cbf56b80419f74ebf0bc845f4, type: 2}
       propertyPath: messageListener
       value: 
-      objectReference: {fileID: 1173708983}
+      objectReference: {fileID: 1665076973}
     - target: {fileID: 11442534, guid: a65acf0cbf56b80419f74ebf0bc845f4, type: 2}
       propertyPath: portName
       value: /dev/cu.usbmodem14501
@@ -486,7 +484,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!102 &1173708984
 TextMesh:
   serializedVersion: 3
@@ -494,7 +492,7 @@ TextMesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1173708983}
-  m_Text: "Voy al\nBa\xF1o"
+  m_Text: 
   m_OffsetZ: 2.13
   m_CharacterSize: 0.56
   m_LineSpacing: 1.16
@@ -663,11 +661,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudiosBotones:
-  - {fileID: 8300000, guid: 6dbbd0e171cbc45c399363c217d60964, type: 3}
+  - {fileID: 0}
   - {fileID: 8300000, guid: 5886ea6c8321b4281a06982e117ca46c, type: 3}
   - {fileID: 8300000, guid: 420c77da7f9094a3dbb622812d6f5cff, type: 3}
   - {fileID: 8300000, guid: 34ac47f914e9f4dd2920a534369b8df7, type: 3}
   m_MyAudioSource: {fileID: 1173708987}
+  NombreEscena: 
 --- !u!1 &1394351909
 GameObject:
   m_ObjectHideFlags: 0
@@ -839,6 +838,7 @@ GameObject:
   - component: {fileID: 1665076975}
   - component: {fileID: 1665076974}
   - component: {fileID: 1665076978}
+  - component: {fileID: 1665076979}
   m_Layer: 0
   m_Name: ROJO_Arriba_Izquierda
   m_TagString: Untagged
@@ -921,14 +921,110 @@ MonoBehaviour:
   m_GameObject: {fileID: 1665076973}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 745a64c6acb1b46e3a801d225b6417cd, type: 3}
+  m_Script: {fileID: 11500000, guid: 800b92efc6f764789af0ed6699da230d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nombreEscena:
-  - Frases
-  - Matematica
-  - Amarillo
-  - Azul
+  AudiosBotones:
+  - {fileID: 8300000, guid: a7d78d216cd844c608da0ee150420f48, type: 3}
+  - {fileID: 8300000, guid: 2ad7bbcbd4f4e447592993ef08d3d1a4, type: 3}
+  - {fileID: 8300000, guid: 34ac47f914e9f4dd2920a534369b8df7, type: 3}
+  m_MyAudioSource: {fileID: 1730971455}
+  NombreEscena: Menu
+--- !u!82 &1665076979
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1665076973}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 1
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1730971451
 GameObject:
   m_ObjectHideFlags: 0
@@ -954,7 +1050,7 @@ TextMesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1730971451}
-  m_Text: "Adios \nGracias.\n"
+  m_Text: "Me Quiero\nBa\xF1ar.\n"
   m_OffsetZ: 2.13
   m_CharacterSize: 0.56
   m_LineSpacing: 1.16
@@ -1156,7 +1252,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 1cc9d612d2f444b09b5c1fc5db01ecc4, type: 2}
+  - {fileID: 2100000, guid: bab829b9071354ef4bbd8ce6774f8dc4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1189,13 +1285,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1814675686}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
   m_LocalPosition: {x: -1.27, y: -0.78, z: 0}
   m_LocalScale: {x: 2, y: 1.5, z: 0.1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!1 &2109260777
 GameObject:
   m_ObjectHideFlags: 0
@@ -1220,14 +1316,16 @@ TextMesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2109260777}
-  m_Text: "Estoy \nFeliz"
+  m_Text: 'Me Quiero
+
+    Dormir.'
   m_OffsetZ: 2.13
   m_CharacterSize: 0.56
   m_LineSpacing: 1.16
   m_Anchor: 0
   m_Alignment: 0
   m_TabSize: 9.71
-  m_FontSize: 96
+  m_FontSize: 80
   m_FontStyle: 0
   m_RichText: 1
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}

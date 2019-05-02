@@ -143,16 +143,14 @@ TextMesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 514181240}
-  m_Text: 'Estado de
-
-    Animo.'
+  m_Text: Sentimiento
   m_OffsetZ: 2.13
   m_CharacterSize: 0.56
   m_LineSpacing: 1.16
   m_Anchor: 0
   m_Alignment: 0
   m_TabSize: 9.71
-  m_FontSize: 84
+  m_FontSize: 65
   m_FontStyle: 0
   m_RichText: 1
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
@@ -492,7 +490,7 @@ TextMesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1173708983}
-  m_Text: Social
+  m_Text: 
   m_OffsetZ: 2.13
   m_CharacterSize: 0.56
   m_LineSpacing: 1.16
@@ -811,10 +809,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nombreEscena:
-  - Saludo
-  - MenuDOs
-  - EstadoAnimo
-  - Social
+  - Higiene
+  - SocialDos
+  - Sentimiento
+  - Menu
 --- !u!1 &1730971451
 GameObject:
   m_ObjectHideFlags: 0
@@ -839,7 +837,7 @@ TextMesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1730971451}
-  m_Text: Saludo
+  m_Text: Higiene
   m_OffsetZ: 2.13
   m_CharacterSize: 0.56
   m_LineSpacing: 1.16
@@ -946,7 +944,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 1cc9d612d2f444b09b5c1fc5db01ecc4, type: 2}
+  - {fileID: 2100000, guid: bab829b9071354ef4bbd8ce6774f8dc4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1010,9 +1008,7 @@ TextMesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2109260777}
-  m_Text: 'Menu
-
-    Dos'
+  m_Text: "Social \nDos"
   m_OffsetZ: 2.13
   m_CharacterSize: 0.56
   m_LineSpacing: 1.16

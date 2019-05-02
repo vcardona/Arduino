@@ -6,12 +6,27 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Ardity/Scenes/DemoScene_UserPoll_ReadWrite.unity
-    guid: 483dfd9088375b94380a7c4999c98acb
+    path: Assets/ScenesJero/Menu.unity
+    guid: 78c1f152104b84d2cb1c50697157f99a
   - enabled: 1
-    path: Assets/Scenes/Frases.unity
+    path: Assets/ScenesJero/MenuDos.unity
+    guid: 94b7de3700ec4422192acbf46abebeb4
+  - enabled: 1
+    path: Assets/ScenesJero/Saludo.unity
     guid: c253124c458234a0e8d28a1ea4dfb0e9
   - enabled: 1
-    path: Assets/Scenes/Matematica.unity
-    guid: 007024554bbe84066a53c9c03c337137
+    path: Assets/ScenesJero/EstadoAnimo.unity
+    guid: db4bc571d0ebb47148831e0efa96953f
+  - enabled: 1
+    path: Assets/ScenesJero/Higiene.unity
+    guid: 43197e7379e2c4a318ffd722f23ae526
+  - enabled: 1
+    path: Assets/ScenesJero/Sentimiento.unity
+    guid: bfe2e9476223b44be80415b16749b916
+  - enabled: 1
+    path: Assets/ScenesJero/Social.unity
+    guid: 01e05c5dfe7e84f099eee557452f7321
+  - enabled: 1
+    path: Assets/ScenesJero/SocialDos.unity
+    guid: 3b92809ba30d54729999dfe916d9e729
   m_configObjects: {}
